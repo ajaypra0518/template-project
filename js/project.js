@@ -39,7 +39,7 @@ function myfunction() {
         document.getElementById("dummy").style.zIndex = "999999999"
         document.getElementById("dummy").style.width = "100%"
         document.getElementsByClassName("navbar2")[0].style.color="black"
-        for(var i=0;i<4;i++){
+        for(var i=0;i<5;i++){
             document.getElementsByClassName("navlink2")[i].style.color="black"
         }
     }
@@ -47,7 +47,7 @@ function myfunction() {
         document.getElementById("dummy").style.position = "static";
         document.getElementById("dummy").style.backgroundColor = "rgb(33, 37, 41)";
         document.getElementsByClassName("navbar2")[0].style.color="white"
-        for(var i=0;i<4;i++){
+        for(var i=0;i<5;i++){
             document.getElementsByClassName("navlink2")[i].style.color="white"
         }
 
@@ -101,6 +101,27 @@ jQuery(document).ready(function ($) {
     }
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
