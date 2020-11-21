@@ -538,17 +538,17 @@ form input, textarea {
 
 
 
-.sticky-top.scrolled {
+.sticky-top1.scrolled {
     background-color: #fff !important;
     transition: background-color 200ms linear;
 }
 
-.nav-link.scrolled {
+.nav-link1.scrolled {
     color: black !important;
     transition: background-color 200ms linear;
 }
 
-.navbar-brand.scrolled {
+.navbar-brand1.scrolled {
     color: black !important;
     transition: background-color 200ms linear;
 }
