@@ -18,9 +18,9 @@ function myFunction(content) {
 
 $(function () {
     $(document).scroll(function () {
-        var $nav = $(".sticky-top");
-        var $link = $(".nav-link");
-        var $logo = $(".navbar-brand")
+        var $nav = $(".sticky-top1");
+        var $link = $(".nav-link1");
+        var $logo = $(".navbar-brand1")
         $nav.toggleClass('scrolled', $(this).scrollTop() > $link.height());
         $link.toggleClass('scrolled', $(this).scrollTop() > $link.height());
         $logo.toggleClass('scrolled', $(this).scrollTop() > $link.height());
@@ -38,10 +38,18 @@ function myfunction() {
         document.getElementById("dummy").style.backgroundColor = "white";
         document.getElementById("dummy").style.zIndex = "999999999"
         document.getElementById("dummy").style.width = "100%"
+        document.getElementsByClassName("navbar2")[0].style.color="black"
+        for(var i=0;i<4;i++){
+            document.getElementsByClassName("navlink2")[i].style.color="black"
+        }
     }
     else {
         document.getElementById("dummy").style.position = "static";
         document.getElementById("dummy").style.backgroundColor = "rgb(33, 37, 41)";
+        document.getElementsByClassName("navbar2")[0].style.color="white"
+        for(var i=0;i<4;i++){
+            document.getElementsByClassName("navlink2")[i].style.color="white"
+        }
 
     }
 }
@@ -93,27 +101,6 @@ jQuery(document).ready(function ($) {
     }
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
