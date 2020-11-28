@@ -211,10 +211,10 @@ ul {
 }
 
 @media only screen and (max-width: 992px) {
-    .cardrate{
+/*     .cardrate{
         flex-direction: column !important;
        
-    }
+    } */
     .revpad{
         margin-bottom: .5rem;
     }
